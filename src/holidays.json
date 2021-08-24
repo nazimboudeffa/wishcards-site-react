@@ -1,6 +1,17 @@
 {
-    "date" : "10/08/2021",
-    "religion" : "islam",
-    "holiday" : "Islamic New Year",
-    "file" : "new-year"
+    "days" : 
+    [ 
+        {
+            "date" : "10/08",
+            "religion" : "islam",
+            "holiday" : "Islamic New Year",
+            "file" : "new-year"
+        },
+        {
+            "date" : "06/03",
+            "religion" : "dudeism",
+            "holiday" : "Dude Day",
+            "file" : "dude-day"
+        }
+    ]
 }
