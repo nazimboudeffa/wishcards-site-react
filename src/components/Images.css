@@ -1,4 +1,27 @@
 .wrapper {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 2rem;
+}
+
+.image {
+    width: 100%;
+    max-width: 380px;
+    transition: all 0.3s;
+    object-fit: cover;
+    border-radius: 20px;
+    animation: animateThumb 0.5s;
+}
+
+.image:hover {
+    opacity: 0.8;
+}
+
+@keyframes animateThumb{
+    from{
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
