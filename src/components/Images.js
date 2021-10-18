@@ -6,6 +6,7 @@ import purnima from '../assets/images/buddhism/buddh-purnima.jpg';
 import dudeism from '../assets/images/dudeism/dudeism-new-cover-image.jpg';
 import newyear from '../assets/images/islam/new-year.jpg';
 import achoura from '../assets/images/islam/achoura.jpg';
+import mawlid from '../assets/images/islam/mawlid.jpg';
 
 class Images extends React.Component {
     render() {
@@ -18,6 +19,7 @@ class Images extends React.Component {
                     <div className="image"><a href="dude.html"><img src={dudeism} alt=""/></a></div>
                     <div className="image"><a href="newyear.html"><img src={newyear} alt="new year"/></a></div>
                     <div className="image"><a href="achoura.html"><img src={achoura} alt="achoura"/></a></div>
+                    <div className="image"><a href="mawlid.html"><img src={mawlid} alt="mawlid"/></a></div>
                 </div>
                 <p>You can fork this project on <a href="https://github.com/nazimboudeffa/wishcards-site-react">GitHub</a></p>
                 <p>My best wishs</p>
